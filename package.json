@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/vigmiranda/benjoim#readme",
   "dependencies": {
-    "express": "^4.15.2"
+    "express": "^4.15.2",
+    "forever-monitor": "^1.7.1"
   }
 }
