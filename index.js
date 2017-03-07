@@ -12,6 +12,10 @@ app.get('/', function(request, response) {
     var result = 'Login'
     response.send(result);	
 })
+.get('/user', function(request, response){
+    var result = 'User'
+    response.send(result);	
+})
 .listen(app.get('port'), function() {
     console.log('App is running, server is listening on port ', app.get('port'));
 });
